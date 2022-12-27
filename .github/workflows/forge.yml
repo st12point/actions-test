@@ -1,6 +1,9 @@
-name: forge
+name: Release using forge
 
-on: [push]
+on:
+  release:
+    types:
+      - created
 
 jobs:
   build_on_windows:
