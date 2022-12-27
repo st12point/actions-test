@@ -1,6 +1,6 @@
 name: forge
 
-on:[push]
+on:　[push]
 
 jobs:
   build_on_windows:
